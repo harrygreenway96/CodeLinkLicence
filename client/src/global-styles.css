@@ -1,0 +1,46 @@
+/* src/global-styles.css */
+:root {
+    --primary-color: #120458;
+    --secondary-color: #ff62e5;
+    --accent-color: #ff7597;
+    --accent-dark: #ff7eb3;
+    --text-color: #fff;
+    --font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--font-family);
+    background: var(--primary-color);
+    color: var(--text-color);
+  }
+  
+  button, input, textarea {
+    font-family: var(--font-family);
+  }
+  
+  /* Utility classes for spacing, text, buttons, etc. */
+  .u-text-center {
+    text-align: center;
+  }
+  
+  .u-button {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .u-button-primary {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+  }
+  
+  .u-button-primary:hover {
+    background-color: var(--accent-dark);
+    transform: translateY(-2px);
+  }
+  
+  /* ... Add more as needed */
+  

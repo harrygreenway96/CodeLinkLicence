@@ -1,0 +1,53 @@
+/* Navbar.module.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #120458; /* Dark background, adjust to match your design */
+    color: #fff;
+    font-family: 'Poppins', sans-serif; /* Common modern font, ensure it's loaded in your index.html */
+  }
+  
+  .brand { 
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .links { 
+    display: flex;
+  }
+  
+  .link { 
+    text-decoration: none;
+    color: #fff;
+    margin-right: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .link:hover { 
+    background-color: #ff62e5;
+  }
+  
+  .auth button { 
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    background: linear-gradient(45deg, #ff7597, #ff7eb3);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: transform 0.2s;
+  }
+  
+  .auth button:hover { 
+    transform: translateY(-2px);
+  }
+  
+
+  
